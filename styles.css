@@ -1,0 +1,183 @@
+body {
+    font-family: 'Montserrat';
+    padding: 30px 30px;
+    text-align: center;
+
+}
+
+#container {
+    width: 700px;
+    height: 300px;
+    margin: 7% auto;
+    overflow: auto;
+    border: solid white 2px;
+    border-color: black;
+    align-content: center;
+    z-index: 200;
+}
+
+#Start {
+    background-color: black;
+    color: white;
+    font-size: 250%;
+    border: none;
+    font-family: 'Montserrat';
+    cursor: pointer;
+}
+
+#Start:hover {
+    color: black;
+    background-color: white;
+    transition: 0.1s;
+}
+
+#message {
+    margin: 5% 0% 7% 0%;
+}
+
+#input1 {
+    display: none;
+}
+
+#button1 {
+    display: none;
+    background-color: black;
+    color: white;
+    font-size: 150%;
+    border: none;
+    font-family: 'Montserrat';
+    cursor: pointer;
+    margin: 5% 0% 0% 0%;
+}
+
+#button1:hover {
+    color: black;
+    background-color: white;
+    transition: 0.1s;
+}
+
+#input2 {
+    display: none;
+}
+
+#button2 {
+    display: none;
+    background-color: black;
+    color: white;
+    font-size: 150%;
+    border: none;
+    font-family: 'Montserrat';
+    cursor: pointer;
+    margin: 5% 0% 0% 0%;
+}
+
+#button2:hover {
+    color: black;
+    background-color: white;
+    transition: 0.1s;
+}
+
+#input3 {
+    display: none;
+}
+
+#button3 {
+    display: none;
+    background-color: black;
+    color: white;
+    font-size: 150%;
+    border: none;
+    font-family: 'Montserrat';
+    cursor: pointer;
+    margin: 5% 0% 0% 0%;
+}
+
+#button3:hover {
+    color: black;
+    background-color: white;
+    transition: 0.1s;
+}
+
+#input4 {
+    display: none;
+}
+
+#button4 {
+    display: none;
+    background-color: black;
+    color: white;
+    font-size: 150%;
+    border: none;
+    font-family: 'Montserrat';
+    cursor: pointer;
+    margin: 5% 0% 0% 0%;
+}
+
+#button4:hover {
+    color: black;
+    background-color: white;
+    transition: 0.1s;
+}
+
+#input5 {
+    display: none;
+}
+
+#button5 {
+    display: none;
+    background-color: black;
+    color: white;
+    font-size: 150%;
+    border: none;
+    font-family: 'Montserrat';
+    cursor: pointer;
+    margin: 5% 0% 0% 0%;
+}
+
+#button5:hover {
+    color: black;
+    background-color: white;
+    transition: 0.1s;
+}
+
+#input6 {
+    display: none;
+}
+
+#button6 {
+    display: none;
+    background-color: black;
+    color: white;
+    font-size: 150%;
+    border: none;
+    font-family: 'Montserrat';
+    cursor: pointer;
+    margin: 5% 0% 0% 0%;
+}
+
+#button6:hover {
+    color: black;
+    background-color: white;
+    transition: 0.1s;
+}
+
+#input7 {
+    display: none;
+}
+
+#finalbutton {
+    display: none;
+    background-color: black;
+    color: white;
+    font-size: 150%;
+    border: none;
+    font-family: 'Montserrat';
+    cursor: pointer;
+    margin: 5% 0% 0% 0%;
+}
+
+#finalbutton:hover {
+    color: black;
+    background-color: white;
+    transition: 0.1s;
+}
