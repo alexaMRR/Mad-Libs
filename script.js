@@ -5,6 +5,7 @@
  var adj1;
  var noun2;
  var deathnumber;
+var endNumber = whenyoureage + deathnumber;
 
  console.log(currentage);
 
@@ -18,8 +19,8 @@
 
  $("#button1").click(function() {
 
-     currentage = $("#input1").val();
-     addtoage = $("#input2").val();
+     currentage = parseInt($("#input1").val());
+     addtoage = parseInt($("#input2").val());
      whenyoureage = currentage + addtoage;
      console.log(currentage);
      $("#message").text("Enter a number.");
@@ -33,7 +34,7 @@
  });
  $("#button2").click(function() {
 
-     addtoage = $("#input2").val();
+     addtoage = parseInt($("#input2").val());
      console.log(addtoage);
      $("#message").text("Pick a plural noun.");
      $("#button2").remove();
@@ -76,7 +77,7 @@
  });
  $("#button6").click(function() {
 
-     deathnumber = $("#input6").val();
+     deathnumber = parseInt($("#input6").val());
      console.log(deathnumber);
      $("#message").text("Pick another number.");
      $("#button6").remove();
@@ -89,12 +90,12 @@
      $("#input7").remove();
      $("#message").text("This is your mad libs.");
 
-     deathnumber = $("#input6").val();
-     whenyoureage = currentage + addtoage;
+     whenyoureage = parseInt(currentage + addtoage);
      currentage = $("#input1").val();
      addtoage = $("#input2").val();
+     endNumber = parseInt(whenyoureage + deathnumber);
 
-     $("#container").text("When you turn " + currentage + addtoage + " you will eat many " + noun1 + ", see a lot of " + adj1 + " " + noun2 + " and die at the age of " + whenyoureage + deathnumber + ".");
+     $("#container").text("When you turn " + whenyoureage + " you will eat many " + noun1 + ", see a lot of " + adj1 + " " + noun2 + " and die at the age of " + whenyoureage + deathnumber + ".");
 
      $("finalbutton").remove();
 
