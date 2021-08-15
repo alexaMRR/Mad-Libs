@@ -95,7 +95,7 @@ var endNumber = whenyoureage + deathnumber;
      addtoage = $("#input2").val();
      endNumber = parseInt(whenyoureage + deathnumber);
 
-     $("#container").text("When you turn " + whenyoureage + " you will eat many " + noun1 + ", see a lot of " + adj1 + " " + noun2 + " and die at the age of " + whenyoureage + deathnumber + ".");
+     $("#container").text("When you turn " + whenyoureage + " you will eat many " + noun1 + ", see a lot of " + adj1 + " " + noun2 + " and die at the age of " + endNumber + ".");
 
      $("finalbutton").remove();
 
